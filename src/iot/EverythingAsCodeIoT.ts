@@ -1,5 +1,6 @@
 import { EaCIoTAsCode } from "./EaCIoTAsCode.ts";
 
+/** */
 export type EverythingAsCodeIoT = {
   IoT?: Record<string, EaCIoTAsCode>;
 };
