@@ -2,7 +2,9 @@
   "name": "@fathym/eac-iot",
   "version": "0.0.0",
   "exports": {
-    ".": "./src/iot/.exports.ts"
+    ".": "./src/iot/.exports.ts",
+    "./steward/api": "./src/steward/api/.exports.ts",
+    "./utils": "./src/utils/.exports.ts"
   },
   "tasks": {
     "build": "deno task build:fmt && deno task build:lint && deno task publish:check && deno task test",
