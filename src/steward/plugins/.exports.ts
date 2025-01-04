@@ -1,5 +1,2 @@
-import EAAP from "./EaCAzureAPIPlugin.ts";
-export const EaCAzureAPIPlugin = EAAP;
-
-import EASP from "./EaCAzureStewardPlugin.ts";
-export const EaCAzureStewardPlugin = EASP;
+import EISP from "./EaCIoTStewardPlugin.ts";
+export const EaCIoTStewardPlugin = EISP;
