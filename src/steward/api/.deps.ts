@@ -1,5 +1,5 @@
-export type { EverythingAsCode } from "jsr:@fathym/eac@0.2.28";
-export type { EaCRuntimeHandlers } from "jsr:@fathym/eac@0.2.28/runtime/pipelines";
+export type { EverythingAsCode } from "jsr:@fathym/eac@0.2.31";
+export type { EaCRuntimeHandlers } from "jsr:@fathym/eac@0.2.31/runtime/pipelines";
 
 export type {
   EaCActuatorCheckRequest,
@@ -8,9 +8,9 @@ export type {
   EaCActuatorErrorResponse,
   EaCActuatorRequest,
   EaCActuatorResponse,
-} from "jsr:@fathym/eac@0.2.28/steward/actuators";
+} from "jsr:@fathym/eac@0.2.31/steward/actuators";
 
-export type { EverythingAsCodeClouds } from "jsr:@fathym/eac-azure@0.0.11";
+export type { EverythingAsCodeClouds } from "jsr:@fathym/eac-azure@0.0.18";
 
 export type { EaCIoTAsCode, EverythingAsCodeIoT } from "../../iot/.exports.ts";
 

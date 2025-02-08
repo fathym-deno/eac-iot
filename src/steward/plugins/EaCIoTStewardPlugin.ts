@@ -12,7 +12,7 @@ import {
 export type EaCIoTStewardPluginOptions = EaCStewardPluginOptions;
 
 export default class EaCIoTStewardPlugin implements EaCRuntimePlugin {
-  constructor(protected options?: EaCIoTStewardPluginOptions) {}
+  constructor(protected options: EaCIoTStewardPluginOptions) {}
 
   public Setup(_config: EaCRuntimeConfig): Promise<EaCRuntimePluginConfig> {
     const stewardApiMetaPath = import.meta.resolve("../steward/api");
