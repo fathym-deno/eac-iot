@@ -8,7 +8,7 @@ import {
   EverythingAsCode,
   EverythingAsCodeClouds,
   EverythingAsCodeIoT,
-} from "./.deps.ts";
+} from "../.deps.ts";
 
 export default {
   async POST(req, ctx) {
