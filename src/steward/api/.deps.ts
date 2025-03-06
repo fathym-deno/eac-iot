@@ -10,7 +10,7 @@ export type {
   EaCActuatorResponse,
 } from "jsr:@fathym/eac@0.2.94/steward/actuators";
 
-export type { EverythingAsCodeClouds } from "jsr:@fathym/eac-azure@0.0.49";
+export type { EverythingAsCodeClouds } from "jsr:@fathym/eac-azure@0.0.50";
 
 export type { EaCIoTAsCode, EverythingAsCodeIoT } from "../../iot/.exports.ts";
 

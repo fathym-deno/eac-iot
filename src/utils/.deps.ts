@@ -6,8 +6,8 @@ export type {
   EaCCloudAsCode,
   EaCCloudAzureDetails,
   EverythingAsCodeClouds,
-} from "jsr:@fathym/eac-azure@0.0.49";
-export { loadAzureCloudCredentials } from "jsr:@fathym/eac-azure@0.0.49/utils";
+} from "jsr:@fathym/eac-azure@0.0.50";
+export { loadAzureCloudCredentials } from "jsr:@fathym/eac-azure@0.0.50/utils";
 
 export { IotHubClient } from "npm:@azure/arm-iothub@6.3.0";
 export { Registry as IoTRegistry } from "npm:azure-iothub@1.16.5";
