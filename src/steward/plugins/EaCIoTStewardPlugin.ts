@@ -28,6 +28,7 @@ export default class EaCIoTStewardPlugin implements EaCRuntimePlugin {
       "/api/steward/iot*",
       "@fathym/eac-iot",
       this.options,
+      "/src/steward/api/iot/",
     );
 
     return Promise.resolve(pluginConfig);
