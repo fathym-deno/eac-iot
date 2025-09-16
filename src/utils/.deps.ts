@@ -1,13 +1,13 @@
 export { Logger } from "jsr:@std/log@0.224.14/logger";
 
-export type { EverythingAsCode } from "jsr:@fathym/eac@0.2.120";
+export type { EverythingAsCode } from "jsr:@fathym/eac@0.2.122";
 
 export type {
   EaCCloudAsCode,
   EaCCloudAzureDetails,
   EverythingAsCodeClouds,
-} from "jsr:@fathym/eac-azure@0.0.106";
-export { loadAzureCloudCredentials } from "jsr:@fathym/eac-azure@0.0.106/utils";
+} from "jsr:@fathym/eac-azure@0.0.109";
+export { loadAzureCloudCredentials } from "jsr:@fathym/eac-azure@0.0.109/utils";
 
 export { IotHubClient } from "npm:@azure/arm-iothub@6.3.0";
 export { Registry as IoTRegistry } from "npm:azure-iothub@1.16.5";
